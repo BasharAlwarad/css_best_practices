@@ -1,0 +1,25 @@
+/* grid.css */
+
+.grid-layout {
+  display: grid;
+  grid-template-columns: 1fr; /* Single column by default */
+  gap: 20px;
+}
+
+@media screen and (min-width: 480px) {
+  .grid-layout {
+    grid-template-columns: repeat(
+      2,
+      1fr
+    ); /* Two columns for screens 480px and wider */
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .grid-layout {
+    grid-template-columns: repeat(
+      3,
+      1fr
+    ); /* Three columns for screens 768px and wider */
+  }
+}

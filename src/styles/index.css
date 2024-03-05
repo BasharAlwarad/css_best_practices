@@ -1,0 +1,19 @@
+/* Importing reset.css */
+@import './base/reset.css';
+
+/* Importing typography.css */
+@import './base/typography.css';
+
+/* Importing component-specific styles */
+@import './components/header.css';
+@import './components/navigation.css';
+@import './components/buttons.css';
+
+/* Importing layout-specific styles */
+@import './layouts/grid.css';
+@import './layouts/flexbox.css';
+
+/* Importing page-specific styles */
+@import './pages/home.css';
+@import './pages/about.css';
+@import './pages/contact.css';
