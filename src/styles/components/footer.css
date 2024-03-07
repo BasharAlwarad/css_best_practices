@@ -1,0 +1,27 @@
+/* @import '../variables.css'; */
+
+footer {
+  background-color: var(--bg-color);
+  padding: 1rem;
+  min-height: 10rem;
+  color: var(--p-color);
+  & > div > * {
+    margin: 1rem;
+  }
+  div.social-links {
+    width: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  a {
+    color: var(--p-color);
+    text-decoration: none;
+    &:hover {
+      color: var(--bg-color-hover);
+    }
+  }
+  .license p {
+    max-width: 20rem;
+  }
+}

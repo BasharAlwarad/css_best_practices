@@ -1,42 +1,4 @@
-/* typography.css */
-
 /* Body text */
 body {
   font-family: 'Arial', sans-serif;
-  font-size: 16px;
-  line-height: 1.5;
-}
-
-/* Headings */
-h1 {
-  font-size: 24px;
-  font-weight: bold;
-  line-height: 1.2;
-}
-
-h2 {
-  font-size: 20px;
-  font-weight: bold;
-  line-height: 1.3;
-}
-
-h3 {
-  font-size: 18px;
-  font-weight: bold;
-  line-height: 1.3;
-}
-
-/* Paragraphs */
-p {
-  margin-bottom: 15px;
-}
-
-/* Links */
-a {
-  color: #007bff;
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
 }

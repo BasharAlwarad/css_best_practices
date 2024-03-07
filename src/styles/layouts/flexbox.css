@@ -1,0 +1,22 @@
+/* flexbox-layout.css */
+
+.flexbox-layout {
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 480px) {
+  .flexbox-layout {
+    justify-content: space-between;
+    flex-flow: row wrap;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .flexbox-layout {
+    justify-content: space-around;
+    flex-flow: row wrap;
+  }
+}

@@ -1,0 +1,7 @@
+:root {
+  --bg-color: #333;
+  --bg-color-hover: rgb(243, 242, 242);
+  --bg-color-active: rgb(166, 197, 237);
+  --li-bg-color: white;
+  --p-color: rgb(229, 223, 223);
+}

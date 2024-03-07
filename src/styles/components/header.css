@@ -1,0 +1,26 @@
+header.hero {
+  position: relative;
+  background: url('https://media.istockphoto.com/id/1327819345/de/foto/hannover-neues-rathaus-bei-sonnenuntergang-hannover-deutschland.jpg?s=612x612&w=0&k=20&c=4aoaR_r_raCBedF-T_PtPg0_vkyARHg_13fMUx1H154=')
+    center;
+  background-size: cover;
+  color: white;
+  text-align: center;
+  min-height: 30vh;
+}
+
+header .logo {
+  position: absolute;
+  left: 0.2rem;
+  top: 0.2rem;
+  border: 1px solid black;
+  border-radius: 99999px;
+  cursor: pointer;
+}
+
+header h1 {
+  position: absolute;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+}

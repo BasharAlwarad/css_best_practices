@@ -1,6 +1,7 @@
 /* grid.css */
 
 .grid-layout {
+  min-height: 30vh;
   display: grid;
   grid-template-columns: 1fr; /* Single column by default */
   gap: 20px;
