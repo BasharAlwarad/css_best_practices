@@ -1,4 +1,8 @@
-# Css best practices
+# <div class='custom-css'>Css best practices</div>
+
+<a href="https://www.markdownguide.org/cheat-sheet/">
+<img src="https://images.unsplash.com/photo-1572985025058-f27aeca1b8bf?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTV8fGNzc3xlbnwwfHwwfHx8MA%3D%3D" alt="imagecss" width=200 hight=200>
+</a>
 
 ## 1. Introduction to CSS Best Practices
 
@@ -329,3 +333,14 @@ $primary-color: #3498db;
   outline: 2px solid #007bff; /* Blue outline when focused */
 }
 ```
+
+<div class='custom-css'>The end</div>
+
+<style>
+  .custom-css{
+    background:pink;
+    color:black;
+    font-size:1.1em;
+    padding: 1em;
+  }
+</style>
