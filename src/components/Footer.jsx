@@ -5,7 +5,7 @@ import FlexboxLayout from '../layouts/FlexboxLayout';
 function Footer() {
   return (
     <footer className='footer'>
-      <FlexboxLayout>
+      <FlexboxLayout direction='row'>
         <div className='social-links'>
           <a
             href='https://twitter.com'

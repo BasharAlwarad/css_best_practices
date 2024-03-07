@@ -1,8 +1,15 @@
 /* flexbox-layout.css */
 
-.flexbox-layout {
+.flexbox-layout-column {
   display: flex;
   flex-flow: column wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.flexbox-layout-row {
+  display: flex;
+  flex-flow: row wrap;
   justify-content: center;
   align-items: center;
 }

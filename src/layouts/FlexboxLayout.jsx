@@ -1,8 +1,11 @@
-import '../styles/layouts/flexbox.css';
 /* eslint-disable react/prop-types */
 
-function FlexboxLayout({ children }) {
-  return <div className='flexbox-layout'>{children}</div>;
+import '../styles/layouts/flexbox.css';
+
+function FlexboxLayout({ children, direction }) {
+  const layoutClassName =
+    direction === 'column' ? 'flexbox-layout-column' : 'flexbox-layout-row';
+  return <div className={layoutClassName}>{children}</div>;
 }
 
 export default FlexboxLayout;
