@@ -1,3 +1,12 @@
+<style>
+  .custom-css{
+    background:pink;
+    color:black;
+    font-size:1.1em;
+    padding: 1em;
+  }
+</style>
+
 # <div class='custom-css'>Css best practices</div>
 
 <a href="https://www.markdownguide.org/cheat-sheet/">
@@ -335,12 +344,3 @@ $primary-color: #3498db;
 ```
 
 <div class='custom-css'>The end</div>
-
-<style>
-  .custom-css{
-    background:pink;
-    color:black;
-    font-size:1.1em;
-    padding: 1em;
-  }
-</style>
