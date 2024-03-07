@@ -8,7 +8,7 @@ footer {
   & > div > * {
     margin: 1rem;
   }
-  div.social-links {
+  .social-links {
     width: 10%;
     display: flex;
     justify-content: space-between;
