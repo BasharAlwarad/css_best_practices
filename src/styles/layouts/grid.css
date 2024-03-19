@@ -1,26 +1,23 @@
 /* grid.css */
 
+/* Single column by default */
 .grid-layout {
   min-height: 30vh;
   display: grid;
-  grid-template-columns: 1fr; /* Single column by default */
+  grid-template-columns: 1fr;
   gap: 20px;
 }
 
 @media screen and (min-width: 480px) {
+  /* Two columns for screens 480px and wider */
   .grid-layout {
-    grid-template-columns: repeat(
-      2,
-      1fr
-    ); /* Two columns for screens 480px and wider */
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
 @media screen and (min-width: 768px) {
+  /* Three columns for screens 768px and wider */
   .grid-layout {
-    grid-template-columns: repeat(
-      3,
-      1fr
-    ); /* Three columns for screens 768px and wider */
+    grid-template-columns: repeat(3, 1fr);
   }
 }

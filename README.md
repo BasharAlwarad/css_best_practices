@@ -8,7 +8,7 @@
 
 ### - Following best practices is crucial for maintaining code quality, scalability, and performance.
 
-1.  Styles for the navigation menu
+1.  Good practice: Styles for the navigation menu
 
 ```css
 /* Styles for the navigatimenu */
@@ -239,6 +239,8 @@ optimization */
 
 ### - Introduce tools like CSS minifiers and preprocessors for optimizing CSS files.
 
+(https://www.toptal.com/developers/cssminifier)
+
 ```css
 /* Before minification */
 .container {
@@ -252,6 +254,8 @@ optimization */
 ```
 
 ### tools like Sass and Less
+
+(https://codebeautify.org/scss-compiler)
 
 ```css
 /* before preprocessing styles.css*/
@@ -268,7 +272,9 @@ $primary-color: #3498db;
 }
 ```
 
-## 5. Cross-Browser Compatibility ### - challenges
+## 5. Cross-Browser Compatibility
+
+### challenges
 
 ```css
 /* Example border-radius not supported in IE11 */
@@ -281,6 +287,8 @@ $primary-color: #3498db;
 }
 ```
 
+(https://caniuse.com/)
+
 ### - techniques for writing CSS that works consistently across different browsers.
 
 ```css
@@ -292,6 +300,8 @@ $primary-color: #3498db;
 ```
 
 ### - Autoprefixer for automatically adding vendor prefixes.
+
+(https://autoprefixer.github.io/)
 
 ```css
 /* Input CSS without vendor prefixes */
@@ -319,7 +329,7 @@ $primary-color: #3498db;
 
 ## 6. Accessibility
 
-### - Ensuring CSS isaccessible to users with disabilities.
+### - Ensuring CSS is accessible to users with disabilities.
 
 ```css
 /* Ensuring Sufficient Color Contrast */
@@ -333,6 +343,8 @@ $primary-color: #3498db;
   outline: 2px solid #007bff; /* Blue outline when focused */
 }
 ```
+
+(https://daily.dev/blog/essential-css-tools-for-developers)
 
 <div class='custom-css'>The end</div>
 
